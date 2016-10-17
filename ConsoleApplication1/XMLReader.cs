@@ -26,7 +26,7 @@ namespace XMLReader
                     string schoolName = schoolNode.Attributes["name"].Value;
                     Console.WriteLine("学校：" + schoolName);
                     ////////////////////////////////////////////////////////////////////
-                    ////////////////////////////////////////////////////
+                    /////////////////////////////////////////////////////
                     #region 年级
                     //通过SelectSingleNode方法获得当前节点下的grades子节点
                     XmlNode gradesNode = schoolNode.SelectSingleNode("grades");
